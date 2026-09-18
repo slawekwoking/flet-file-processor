@@ -1,0 +1,33 @@
+Sample Data File for Flet File Processor
+==========================================
+
+This is a sample text file to demonstrate the file processing capabilities
+of the Flet File Processor application.
+
+File Statistics (when processed):
+- Lines: 25
+- Words: ~180
+- Characters: ~1100
+
+Features demonstrated:
+1. Line counting
+2. Word counting
+3. Character counting
+4. File type detection
+5. Content preview (first 10000 chars)
+
+Supported file formats:
+- Plain text (.txt)
+- JSON (.json)
+- CSV (.csv)
+- Markdown (.md)
+- Python (.py)
+- Log files (.log)
+- And more...
+
+The application uses Flet framework which compiles to native Android APK
+using Flutter engine. No root access required - runs in standard
+Android sandbox with proper permissions handling.
+
+Try selecting this file in the app and clicking "Process File" to see
+the analysis results!
