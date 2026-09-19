@@ -38,4 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gotowa-aplikacja-apk
-          path: build/apk/app-release.apk
+          path: |
+            build/apk/*.apk
+            dist/*.apk
+          if-no-files-found: error
